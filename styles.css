@@ -1,0 +1,140 @@
+nav ul a {
+    text-decoration: none;
+}
+.no-underline {
+    text-decoration: none;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+.highlight {
+    color: #2196f3;
+}
+.main-desc {
+    font-size: 1.15rem;
+    color: #555;
+    max-width: 480px;
+    margin-bottom: 2rem;
+}
+
+.main-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.main-text {
+    flex: 1;
+}
+.right-img {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.right-img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 40%;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container ul {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 2rem;
+}
+
+.user-btn {
+    margin-left: auto;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+}
+.user-btn a {
+    font-size: 1.1rem;
+}
+
+nav h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+nav {
+    background-color: #f4f0f0;
+    color: #060606;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav button {
+    background-color: #6fd7e9;
+    color: #010101;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+nav button a {
+    color: #0a88b1;
+    text-decoration: none;
+}
+nav button:hover {
+    background-color: #0b0c0c;
+}
+nav button a:hover {
+    background-color: #0b0c0c;
+    color: #ffffff;
+}
+main {
+    padding: 2rem;
+}
+main img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main button {
+    background-color: #6fd7e9;
+    color: #010101;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+footer {
+    background-color: #f4f0f0;
+    color: #0e0e0e;
+    text-align: center;
+    padding: 1rem;
+}
